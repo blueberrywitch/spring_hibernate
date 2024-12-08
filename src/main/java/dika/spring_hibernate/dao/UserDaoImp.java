@@ -1,9 +1,11 @@
-import hiber.model.User;
+package dika.spring_hibernate.dao;
+
+import dika.spring_hibernate.model.User;
+import jakarta.persistence.TypedQuery;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.TypedQuery;
 import java.util.List;
 
 @Repository
@@ -20,7 +22,7 @@ public class UserDaoImp implements UserDao {
     @Override
     @SuppressWarnings("unchecked")
     public List<User> listUsers() {
-        TypedQuery<User> query=sessionFactory.getCurrentSession().createQuery("from User");
+        TypedQuery<User> query = sessionFactory.getCurrentSession().createQuery("from dika.spring_hibernate.model.User");
         return query.getResultList();
     }
 

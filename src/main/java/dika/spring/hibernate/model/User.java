@@ -1,4 +1,4 @@
-package dika.spring_hibernate.model;
+package dika.spring.hibernate.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

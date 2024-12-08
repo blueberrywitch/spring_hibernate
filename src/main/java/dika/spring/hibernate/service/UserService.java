@@ -1,6 +1,6 @@
-package dika.spring_hibernate.service;
+package dika.spring.hibernate.service;
 
-import dika.spring_hibernate.model.User;
+import dika.spring.hibernate.model.User;
 
 import java.util.List;
 

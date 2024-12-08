@@ -1,6 +1,6 @@
-package dika.spring_hibernate.config;
+package dika.spring.hibernate.config;
 
-import dika.spring_hibernate.model.User;
+import dika.spring.hibernate.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

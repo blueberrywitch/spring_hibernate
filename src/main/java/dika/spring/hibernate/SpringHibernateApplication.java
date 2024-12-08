@@ -1,9 +1,9 @@
-package dika.spring_hibernate;
+package dika.spring.hibernate;
 
 
-import dika.spring_hibernate.config.AppConfig;
-import dika.spring_hibernate.model.User;
-import dika.spring_hibernate.service.UserService;
+import dika.spring.hibernate.model.User;
+import dika.spring.hibernate.config.AppConfig;
+import dika.spring.hibernate.service.UserService;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

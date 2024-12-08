@@ -17,9 +17,9 @@ import java.util.Properties;
 
 
 @Configuration
-@PropertySource("classpath:db.properties")
+@PropertySource("classpath:application.yml")
 @EnableTransactionManagement
-@ComponentScan(value = "dika.spring_hibernate")
+@ComponentScan(value = "dika.spring.hibernate")
 public class AppConfig {
 
     @Autowired
@@ -28,10 +28,10 @@ public class AppConfig {
     @Bean
     public DataSource getDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName(env.getProperty("db.driver"));
-        dataSource.setUrl(env.getProperty("db.url"));
-        dataSource.setUsername(env.getProperty("db.username"));
-        dataSource.setPassword(env.getProperty("db.password"));
+        dataSource.setDriverClassName(env.getProperty("driver"));
+        dataSource.setUrl(env.getProperty("url"));
+        dataSource.setUsername(env.getProperty("username"));
+        dataSource.setPassword(env.getProperty("password"));
         return dataSource;
     }
 

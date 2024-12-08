@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dika</groupId>
-    <artifactId>spring_hibernate</artifactId>
+    <artifactId>spring.hibernate</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring_hibernate</name>
-    <description>spring_hibernate</description>
+    <description>spring.hibernate</description>
     <url/>
     <licenses>
         <license/>

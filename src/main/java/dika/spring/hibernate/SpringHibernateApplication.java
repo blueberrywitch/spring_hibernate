@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 @SpringBootApplication
-@EntityScan("dika.spring_hibernate.model")
+@EntityScan("dika.spring.hibernate.model")
 public class SpringHibernateApplication {
 
     public static void main(String[] args) throws SQLException {
